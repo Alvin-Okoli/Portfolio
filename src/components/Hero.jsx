@@ -10,7 +10,7 @@ export default function Hero() {
         </div>
 
         <div className=" h-64 pt-4 md:pt-10">
-            <div className=" h-60 w-60 rounded-full mx-auto bg-[url(dp1.png)] bg-no-repeat bg-top p-10"></div>
+            <div className=" h-60 w-60 rounded-full mx-auto bg-[url('dp1.png')] bg-no-repeat bg-top p-10"></div>
         </div>
     </div>
   );
