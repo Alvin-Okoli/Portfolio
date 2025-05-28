@@ -6,7 +6,7 @@ export default function About(){
             <div className="text-5xl md:text-7xl font-bold my-6">About <span className="text-orange-500">Me</span></div>
 
             <div className="px-4">
-                <div className="font-bold md:text-2xl md:my-2">Technologies used:</div>
+                <div className="font-bold md:text-2xl md:my-2">Technologies I use:</div>
                 <li><span className="font-semibold md:text-xl">Frontend: </span> React & tailwindcss. </li>
                 <li><span className="font-semibold md:text-xl">Backend: </span> Node.js and express. </li>
                 <li><span className="font-semibold md:text-xl">Game developement: </span> Phaser.</li>
