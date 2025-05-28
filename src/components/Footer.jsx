@@ -8,14 +8,14 @@ export default function Footer() {
                 {/* <div className="p-2 text-xl text-orange-500 font-bold">Grafting softwares to life</div> */}
             </div>
             
-            <div className="text-2xl my-4 flex justify-center gap-4">
-                <img src="message-svgrepo-com.svg" alt="" className="w-8"/>
-                <img src="github-svgrepo-com.svg" alt="" className="w-8"/>
-                <img src="linkedin-161-svgrepo-com.svg" alt="" className="w-8"/>
-                <img src="xlogo.svg" alt="" className="w-8"/>
+            <div className="text-2xl my-4 flex justify-center gap-4 md:gap-8">
+                <img src="message-svgrepo-com.svg" alt="" className="w-8 md:w-12"/>
+                <img src="github-svgrepo-com.svg" alt="" className="w-8 md:w-12"/>
+                <img src="linkedin-161-svgrepo-com.svg" alt="" className="w-8 md:w-12"/>
+                <img src="xlogo.svg" alt="" className="w-8 md:w-12"/>
             </div>
             <div className="container mx-auto text-center">
-                <p className="text-sm">©2025 Devin. All rights reserved.</p>
+                <p className="text-sm">&copy;2025 <span className="text-orange-400">Devin</span>. All rights reserved.</p>
             </div>
         </footer>
     );
