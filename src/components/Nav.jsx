@@ -10,7 +10,7 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-0 z-50 bg-white">
-      <div className="flex justify-between p-2 relative shadow">
+      <div className="flex justify-between p-2 px-6 relative shadow">
         <img src="dev-vin.png" alt="" className="h-14"/>
 
         <img src={showOptions? "cancel-svgrepo-com.svg":"burger-menu-svgrepo-com.svg"} alt="" className="h-12 md:hidden" onClick={toggleOptions}/>
@@ -22,7 +22,6 @@ export default function Nav() {
             <div className="py-2 font-serif">Projects</div>
             <div className="py-2 font-serif">About</div>
             <div className="py-2 font-serif">Contact</div>
-            {/* <div className="py-2 font-serif">Resume</div> */}
             <div className="py-2 font-serif">Blog</div>
           </div>
         }
