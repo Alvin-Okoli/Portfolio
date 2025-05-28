@@ -8,7 +8,8 @@ export default function Project({topic, project}){
                 <div className="text-orange-500">Projects</div>
             </div>
 
-            <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 cursor-pointer md:gap-x-5">
+            <a href="https://shopa-delta.vercel.app/" target="_blank">
+                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 cursor-pointer md:gap-x-5">
                 <img src="Screenshot 2025-05-05 160356.png" alt="" className=""/>
                 <div className="col-span-2">
                     <div className="font-bold text-xl md:text-2xl">Shopa</div>
@@ -16,8 +17,10 @@ export default function Project({topic, project}){
                     <p className="text-gray-700 md:text-xl my-2 hidden lg:block"> Discover our curated selection of products and categories at Shopa. Fast shipping, secure checkout, and top-notch customer service!Showcasing my latest project: a MERN stack e-commerce site! 💻 Built with React, Node.js, Express, and MongoDB. Code quality and performance were top priorities...</p>
                 </div>
             </div>
+            </a>
 
-            <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 cursor-pointer md:gap-x-5">
+            <a href="https://shopa-delta.vercel.app/" target="_blank">
+                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 cursor-pointer md:gap-x-5">
                 <img src="Screenshot 2025-05-05 160356.png" alt="" className=""/>
                 <div className="col-span-2">
                     <div className="font-bold text-xl md:text-2xl">Shopa</div>
@@ -25,8 +28,10 @@ export default function Project({topic, project}){
                     <p className="text-gray-700 md:text-xl my-2 hidden lg:block"> Discover our curated selection of products and categories at Shopa. Fast shipping, secure checkout, and top-notch customer service!Showcasing my latest project: a MERN stack e-commerce site! 💻 Built with React, Node.js, Express, and MongoDB. Code quality and performance were top priorities...</p>
                 </div>
             </div>
+            </a>
 
-            <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 cursor-pointer md:gap-x-5">
+            <a href="https://shopa-delta.vercel.app/" target="_blank">
+                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 cursor-pointer md:gap-x-5">
                 <img src="Screenshot 2025-05-05 160356.png" alt="" className=""/>
                 <div className="col-span-2">
                     <div className="font-bold text-xl md:text-2xl">Shopa</div>
@@ -34,8 +39,10 @@ export default function Project({topic, project}){
                     <p className="text-gray-700 md:text-xl my-2 hidden lg:block"> Discover our curated selection of products and categories at Shopa. Fast shipping, secure checkout, and top-notch customer service!Showcasing my latest project: a MERN stack e-commerce site! 💻 Built with React, Node.js, Express, and MongoDB. Code quality and performance were top priorities...</p>
                 </div>
             </div>
+            </a>
             
-            <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 cursor-pointer md:gap-x-5">
+            <a href="https://shopa-delta.vercel.app/" target="_blank">
+                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 cursor-pointer md:gap-x-5">
                 <img src="Screenshot 2025-05-05 160356.png" alt="" className=""/>
                 <div className="col-span-2">
                     <div className="font-bold text-xl md:text-2xl">Shopa</div>
@@ -43,6 +50,7 @@ export default function Project({topic, project}){
                     <p className="text-gray-700 md:text-xl my-2 hidden lg:block"> Discover our curated selection of products and categories at Shopa. Fast shipping, secure checkout, and top-notch customer service!Showcasing my latest project: a MERN stack e-commerce site! 💻 Built with React, Node.js, Express, and MongoDB. Code quality and performance were top priorities...</p>
                 </div>
             </div>
+            </a>
         </div>
     )
 }
