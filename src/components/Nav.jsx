@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 
-export default function Nav() {
+export default function Nav({scrollToHome, scrollToProjects, scrollToAbout, scrollToContact}) {
   const [showOptions, setShowOptions] = useState(false);
 
   const toggleOptions = () => {
@@ -16,20 +16,20 @@ export default function Nav() {
         <img src={showOptions? "cancel-svgrepo-com.svg":"burger-menu-svgrepo-com.svg"} alt="" className="h-12 md:hidden" onClick={toggleOptions}/>
 
         <div className="hidden pt-3 gap-10 mx-auto text-lg md:flex md:absolute right-16 lg:right-36">
-          <div className="py-2 font-bold cursor-pointer">Home</div>
-          <div className="py-2 font-bold cursor-pointer">Projects</div>
-          <div className="py-2 font-bold cursor-pointer">About</div>
-          <div className="py-2 font-bold cursor-pointer">Contact</div>
+          <div className="py-2 font-bold cursor-pointer" onClick={scrollToHome}>Home</div>
+          <div className="py-2 font-bold cursor-pointer" onClick={scrollToProjects}>Projects</div>
+          <div className="py-2 font-bold cursor-pointer" onClick={scrollToAbout}>About</div>
+          <div className="py-2 font-bold cursor-pointer" onClick={scrollToContact}>Contact</div>
           <div className="py-2 font-bold cursor-pointer">Blog</div>
         </div>
       </div>
 
       {showOptions&& 
         <div className="text-2xl absolute w-full md:hidden backdrop-blur-sm px-6 text-orange-500 bg-white shadow">
-            <div className="py-2 font-bold">Home</div>
-            <div className="py-2 font-bold">Projects</div>
-            <div className="py-2 font-bold">About</div>
-            <div className="py-2 font-bold">Contact</div>
+            <div className="py-2 font-bold" onClick={scrollToHome}>Home</div>
+            <div className="py-2 font-bold" onClick={scrollToProjects}>Projects</div>
+            <div className="py-2 font-bold" onClick={scrollToAbout}>About</div>
+            <div className="py-2 font-bold" onClick={scrollToContact}>Contact</div>
             <div className="py-2 font-bold">Blog</div>
           </div>
         }

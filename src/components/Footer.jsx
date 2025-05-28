@@ -9,10 +9,9 @@ export default function Footer() {
             </div>
             
             <div className="text-2xl my-4 flex justify-center gap-4 md:gap-8">
-                <img src="message-svgrepo-com.svg" alt="" className="w-8 md:w-12"/>
-                <img src="github-svgrepo-com.svg" alt="" className="w-8 md:w-12"/>
-                <img src="linkedin-161-svgrepo-com.svg" alt="" className="w-8 md:w-12"/>
-                <img src="xlogo.svg" alt="" className="w-8 md:w-12"/>
+                <a href="https://github.com/Alvin-Okoli" target="_blank"><img src="github-svgrepo-com.svg" alt="" className="w-8 md:w-12"/></a>
+                <a href="www.linkedin.com/in/alvin-okoli-b66a7033a" target="_blank"><img src="linkedin-161-svgrepo-com.svg" alt="" className="w-8 md:w-12"/></a>
+                <a href="https://x.com/AlvinOkoli" target="_blank"><img src="xlogo.svg" alt="" className="w-8 md:w-12"/></a>
             </div>
             <div className="container mx-auto text-center">
                 <p className="text-sm">&copy;2025 <span className="text-orange-400">Devin</span>. All rights reserved.</p>
