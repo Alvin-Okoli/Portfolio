@@ -13,7 +13,7 @@ export default function Nav() {
       <div className="flex justify-between p-2 relative shadow">
         <img src="dev-vin.png" alt="" className="h-14"/>
 
-        <img src={showOptions? "cancel-svgrepo-com.svg":"burger-menu-svgrepo-com.svg"} alt="" className="h-12" onClick={toggleOptions}/>
+        <img src={showOptions? "cancel-svgrepo-com.svg":"burger-menu-svgrepo-com.svg"} alt="" className="h-12 md:hidden" onClick={toggleOptions}/>
       </div>
 
       {showOptions&& 
