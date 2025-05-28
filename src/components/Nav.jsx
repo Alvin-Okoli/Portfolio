@@ -9,21 +9,28 @@ export default function Nav() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white">
-      <div className="flex justify-between p-2 relative shadow">
+    <nav className="sticky top-0 z-50 bg-white shadow">
+      <div className="flex justify-between py-2 md:px-6 lg:px-24 relative">
         <img src="dev-vin.png" alt="" className="h-14"/>
 
         <img src={showOptions? "cancel-svgrepo-com.svg":"burger-menu-svgrepo-com.svg"} alt="" className="h-12 md:hidden" onClick={toggleOptions}/>
+
+        <div className="hidden pt-3 gap-10 mx-auto text-lg md:flex md:absolute right-16 lg:right-36">
+          <div className="py-2 font-bold cursor-pointer">Home</div>
+          <div className="py-2 font-bold cursor-pointer">Projects</div>
+          <div className="py-2 font-bold cursor-pointer">About</div>
+          <div className="py-2 font-bold cursor-pointer">Contact</div>
+          <div className="py-2 font-bold cursor-pointer">Blog</div>
+        </div>
       </div>
 
       {showOptions&& 
         <div className="text-2xl absolute w-full md:hidden backdrop-blur-sm px-6 text-orange-500 bg-white shadow">
-            <div className="py-2 font-serif">Home</div>
-            <div className="py-2 font-serif">Projects</div>
-            <div className="py-2 font-serif">About</div>
-            <div className="py-2 font-serif">Contact</div>
-            {/* <div className="py-2 font-serif">Resume</div> */}
-            <div className="py-2 font-serif">Blog</div>
+            <div className="py-2 font-bold">Home</div>
+            <div className="py-2 font-bold">Projects</div>
+            <div className="py-2 font-bold">About</div>
+            <div className="py-2 font-bold">Contact</div>
+            <div className="py-2 font-bold">Blog</div>
           </div>
         }
         <Outlet/>
