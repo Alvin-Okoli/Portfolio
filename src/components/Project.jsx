@@ -9,7 +9,7 @@ export default function Project({topic, project}){
             </div>
 
             <div>
-                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5">
+                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5 relative">
                     <a href="Screenshot 2025-05-05 160356.png" target="_blank"><img src="Screenshot 2025-05-05 160356.png" alt="" className="max-h-60 cursor-pointer"/></a>
                     <div className="col-span-2">
                         <a href="https://shopa-delta.vercel.app/" target="_blank">
@@ -25,7 +25,7 @@ export default function Project({topic, project}){
             </div>
 
             <div>
-                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5">
+                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5 relative">
                     <a href="Screenshot 2025-05-29 203603.png" target="_blank"><img src="Screenshot 2025-05-29 203603.png" alt="" className="max-h-60 cursor-pointer"/></a>
                     <div className="col-span-2">
                     <a href="https://mern-blog-one-ruby.vercel.app/" target="_blank">
@@ -41,7 +41,7 @@ export default function Project({topic, project}){
             </div>
 
             <div>
-                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5">
+                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5 relative">
                     <a href="Screenshot 2025-05-05 160356.png" target="_blank"><img src="Screenshot 2025-05-05 160356.png" alt="" className="max-h-60 cursor-pointer"/></a>
                     <div className="col-span-2">
                         <a href="https://shopa-delta.vercel.app/" target="_blank">
@@ -57,7 +57,7 @@ export default function Project({topic, project}){
             </div>
             
             <div>
-                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5">
+                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5 relative">
                     <a href="Screenshot 2025-05-27 153442.png" target="_blank"><img src="Screenshot 2025-05-27 153442.png" alt="" className="max-h-60 cursor-pointer"/></a>
                     <div className="col-span-2">
                         <a href="https://fun-pong.vercel.app/" target="_blank">
@@ -73,7 +73,7 @@ export default function Project({topic, project}){
             </div>
 
             <div>
-                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5">
+                <div className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5 relative">
                     <a href="desktop-preview.jpg" target="_blank"><img src="desktop-preview.jpg" alt="" className="max-h-60 cursor-pointer"/></a>
                     <div className="col-span-2">
                         <a href="https://country-rest-api-black.vercel.app/" target="_blank">
