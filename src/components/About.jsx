@@ -31,6 +31,29 @@ const workExperiences = [
     },
     ];
 
+const skills = [
+        {
+            category: "Frontend",
+            tools: ["React", "Tailwind CSS"],
+        },
+        {
+            category: "Backend",
+            tools: ["Node.js", "Express"],
+        },
+        {
+            category: "Game Development",
+            tools: ["Phaser"],
+        },
+        {
+            category: "Database",
+            tools: ["MongoDB"],
+        },
+        {
+            category: "Tools",
+            tools: ["Git", "GitHub", 'Postman', 'Docker', 'WebSockets', 'RESTful APIs'],
+        }
+    ];
+
 export default function About(){
     const [clicked, setClicked] = useState(false);
 
@@ -79,25 +102,4 @@ export default function About(){
     )
 }
 
-const skills = [
-        {
-            category: "Frontend",
-            tools: ["React", "Tailwind CSS"],
-        },
-        {
-            category: "Backend",
-            tools: ["Node.js", "Express"],
-        },
-        {
-            category: "Game Development",
-            tools: ["Phaser"],
-        },
-        {
-            category: "Database",
-            tools: ["MongoDB"],
-        },
-        {
-            category: "Tools",
-            tools: ["Git", "GitHub", 'Postman', 'Docker', 'WebSockets', 'RESTful APIs'],
-        }
-    ];
+
