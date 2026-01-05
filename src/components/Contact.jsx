@@ -44,7 +44,7 @@ export default function Contact() {
         }
 
     return(
-        <div className="px-2 my-6 md:px-6 lg:pl-24 lg:pr-48 lg:mt-30 relative">
+        <div className="px-4 my-6 md:px-6 lg:pl-24 lg:pr-48 lg:mt-30 relative">
             <div className='absolute bottom-[-20px] left-1/5 font-bold text-2xl text-black'>{info}</div>
             <div className="text-5xl font-bold my-6">Contact</div>
             <div>Are you looking on building something good, let's work together. You could contact me:</div>
@@ -55,7 +55,10 @@ export default function Contact() {
                         <div key={index} className="my-2">
                             <label>
                                 <div className="font-semibold">{field.label}</div>
-                                <input type={field.type} className="border-2 border-gray-300 rounded-lg p-2 w-full my-1" placeholder={field.placeholder}/>
+                                <input 
+                                type={field.type} 
+                                className="border-2 border-gray-300 rounded-lg p-2 w-full my-1" 
+                                placeholder={field.placeholder}/>
                             </label>
                         </div>
                     ))}

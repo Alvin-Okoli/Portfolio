@@ -2,7 +2,7 @@
 export default function Hero() {
 
   return (
-    <div className="md:grid grid-cols-2 md:px-6 md:pt-4 lg:px-24 relative">
+    <div className="px-4 md:grid grid-cols-2 md:px-6 md:pt-4 lg:px-24 relative">
         <div className="pt-10 px-2 mb-10">
             <div className="mb-2 font-bold md:text-lg lg:text-2xl">Hello, I'm <span className="text-orange-500">Alvin</span>👋🏾</div>
             <div className="text-5xl  md:text-7xl mb-3 font-bold lg:text-9xl"><span className="text-orange-500">Full</span>-Stack Developer 👨🏾‍💻</div>
