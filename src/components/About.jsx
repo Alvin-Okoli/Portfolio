@@ -34,30 +34,25 @@ const workExperiences = [
 export default function About(){
     const [clicked, setClicked] = useState(false);
 
-        async function copyToClipboard(text) {
-            try {
-            await navigator.clipboard.writeText(text);
-            }
-            catch (err) {
-            console.error('Failed to copy: ', err);
-            }
-        }
+        
 
     return(
-        <div className="px-2 md:px-6 lg:pl-24 lg:pr-48">
+        <div className="px-4 md:px-6 lg:pl-24 lg:pr-48">
             <div className="text-5xl md:text-7xl font-bold my-6 mb-10">About <span className="text-orange-500">Me</span></div>
 
-            <div className="px-2">
+            <div className="px-">
                 <div className="text-2xl md:text-5xl font-bold my-6">Technologies I use:</div>
-                {skills.map((skill, index) => (
-                    <li key={index}><span className="font-semibold md:text-xl">{skill.category}: </span> {skill.tools.join(', ')} </li>
-                ))}
+                <ul className="list-outside list-disc mx-6">
+                    {skills.map((skill, index) => (
+                        <li key={index}><span className="font-semibold md:text-xl">{skill.category}: </span> {skill.tools.join(', ')} </li>
+                    ))}
+                </ul>
             </div>
 
             <div className="text-2xl md:text-5xl font-bold my-6">Experience</div>
 
             { workExperiences.map((experience, index) =>
-                <div className="border-b-2 py-7 border-gray-500 mb-4 lg:">
+                <div key={index} className="border-b-2 py-7 border-gray-500 mb-4 lg:">
                     <div className="my-2 font-semibold md:text-2xl">{experience.duration}</div>
                     <div className="font-semibold md:text-2xl">{experience.role}</div>
                     <div className="font-semibold md:text-2xl">{experience.company}</div>
@@ -86,7 +81,7 @@ const skills = [
         },
         {
             category: "Backend",
-            tools: ["Node.js", "Express"],
+            tools: ["Node.js", "Express", "TypeScript"],
         },
         {
             category: "Game Development",
@@ -94,10 +89,10 @@ const skills = [
         },
         {
             category: "Database",
-            tools: ["MongoDB"],
+            tools: ["MongoDB", "MYSQL"],
         },
         {
             category: "Tools",
-            tools: ["Git", "GitHub", 'Postman', 'Docker', 'WebSockets', 'RESTful APIs'],
+            tools: ["Git", "GitHub", 'Postman', 'Docker', 'WebSockets', 'RESTful APIs', "GraphQL"],
         }
     ];
