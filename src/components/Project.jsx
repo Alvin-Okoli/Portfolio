@@ -46,6 +46,7 @@ export default function Project(){
             </div>
 
             <div>
+
                 {projects.map((project, index) => (
                     <div key={index} className="mx-2 py-4 rounded-2xl my-6 grid grid-cols-3 gap-x-2 hover:bg-gray-100 shadow md:gap-x-5 relative">
                         <a href={project.image} target="_blank">
@@ -65,6 +66,7 @@ export default function Project(){
                                 <div className="absolute bottom-1 animate-pulse font-bold hover:underline hover:text-orange-500 cursor-pointer">Click to preview</div>
                             </a>
                         </div>
+
                     </div>
                 ))}
             </div>
